@@ -1,0 +1,37 @@
+/*headerとmainの隙間をなくす*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: serif;
+	background: linear-gradient(to right, #483d8b, #66cdaa);
+}
+
+.header {
+	background: linear-gradient(to right, #483d8b, #66cdaa);
+	padding: 50px;
+	margin: 0px;
+}
+
+.header h1{
+	font-family: sans-serif;
+	color: gainsboro;
+	border-bottom: 2px solid lightsteelblue;
+	margin-bottom: 10px;
+}
+
+.main {
+	background-color: gainsboro;
+	padding: 10px 50px;
+}
+
+.footer {
+	background: linear-gradient(to right, #483d8b, #66cdaa);
+	height: 50px;
+}
+
+.footer_list {
+	padding: 10px 50px;
+}
